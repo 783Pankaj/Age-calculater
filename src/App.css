@@ -1,38 +1,55 @@
-.App {
+
+.ageCalculate{
   text-align: center;
+  margin-top: 5%;
+  border-radius: 30px;
+  word-spacing: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text{
+  margin: 10px;
+  color: #333;
+}
+.calbtn{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(183, 187, 238);
+  margin-left: 10px;
+}
+.inputage{
+  padding: 10px;
+  border-radius: 5px;
+}
+.age-box {
+  background-color: #f2f2f2;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 70px auto;
+  max-width: 400px;
+  width: 90%;
+  color: #333;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width: 768px) {
+  .age-box {
+    width: 70%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heading{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color:black
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading2{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #333;
 }
